@@ -1,0 +1,46 @@
+------------------------PROGETTO:-----------------------------------------------------------------
+5) GreenAward
+L’App misura i km percorsi in bici e a piedi di utenti. 
+Serve a premiare i cittadini che vanno in bici
+e a piedi, a cui viene chiesto di andare in giro con il telefono in tasca. 
+
+L’App che premia i cittadini che si comportano bene 
+nei confronti dell’ambiente 
+(simile a ViviBici http://portale.coopvoce.it/web/portale/vivibici).
+
+------------------------ORGANIZZAZIONE------------------------------------------------------------
+- capire layout
+- esempio MathApp
+- impostare github
+
+- ogni giorno che modifichiamo utilizzamo githHub (commit)
+- e un file per fare i commit piu approfonditi per l'orale
+
+----------------------------STRUTTURA APP---------------------------------------------------------
+Pagina iniziale menù, 4 bottoni:
+- percorso a piedi
+- percorso in bici
+- tutto lo storico
+	- storico piedi
+	- storico in bici
+- obbiettivi e ricompense
+
+-----------------------------LINK UTILI-----------------------------------------------------------
+come fare le activity
+	le provo a fare con una stampa
+	https://www.youtube.com/watch?v=IR4OSBb__iQ
+	
+	- mostra il percorso fatto (opzionale) se si riesce figata 
+	
+	- usare GPS 
+	
+	- usare API gMaps
+	
+	- contare km piedi
+	
+	- contare km bici
+	
+	- database per salvare i km a piedi
+	
+	- database per salvare i km in piedi
+	

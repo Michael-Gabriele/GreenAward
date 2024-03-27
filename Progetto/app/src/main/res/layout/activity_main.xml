@@ -20,11 +20,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
+    <ImageButton
 
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:background="@drawable/pimpa"
+        android:background="@drawable/percorso"
         android:onClick="openPimpa"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,7 +37,7 @@
 
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:background="@drawable/pimpa"
+        android:background="@drawable/diario"
         android:onClick="openPimpa"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

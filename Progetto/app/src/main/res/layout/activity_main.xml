@@ -7,25 +7,13 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/tv"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:gravity="center"
-        android:text="CIAO, SONO MAIN ACTIVITY"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
 
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:background="@drawable/percorso"
-        android:onClick="openPimpa"
+        android:id="@+id/open_mappa"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.198"
@@ -38,7 +26,7 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:background="@drawable/diario"
-        android:onClick="openPimpa"
+        android:id="@+id/open_diario"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.862"
